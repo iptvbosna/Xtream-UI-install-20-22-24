@@ -114,7 +114,7 @@ def configure():
         os.system("sudo chmod +x /etc/init.d/xtreamcodes")
         os.system("sudo update-rc.d xtreamcodes defaults")
     if not os.path.exists("/home/xtreamcodes/iptv_xtream_codes/xtreamcodes"): 
-        os.system("wget -q https://github.com/seharavip/Xtream-UI-install/raw/main/xtreamcodes -O /home/xtreamcodes/iptv_xtream_codes/xtreamcodes")
+        os.system("wget -q https://github.com/iptvbosna/Xtream-UI-install-20-22-24/raw/main/xtreamcodes -O /home/xtreamcodes/iptv_xtream_codes/xtreamcodes")
         os.system("sudo chmod +x /home/xtreamcodes/iptv_xtream_codes/xtreamcodes")
     rFile = open("/etc/sysctl.conf", "w", encoding="utf-8")
     rFile.write(rSysCtl)
