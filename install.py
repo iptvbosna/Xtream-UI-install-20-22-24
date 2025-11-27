@@ -176,7 +176,7 @@ def install(rType="MAIN"):
         printc("Installing Software")
         os.system('unzip -o "/tmp/xtreamcodes.zip" -d "/home/xtreamcodes/" >/dev/null 2>&1')
         if not os.path.exists("/home/xtreamcodes/iptv_xtream_codes/xtreamcodes"): 
-            os.system("wget -q https://github.com/iptvbosna/Xtream-UI-install-20-22-24/raw/main/xtreamcodes -O /home/xtreamcodes/iptv_xtream_codes/xtreamcodes")
+            os.system("wget -q https://github.com/iptvbosna/Xtream-UI-install/raw/main/xtreamcodes -O /home/xtreamcodes/iptv_xtream_codes/xtreamcodes")
             os.system("sudo chmod +x /home/xtreamcodes/iptv_xtream_codes/xtreamcodes")
         try: os.remove("/tmp/xtreamcodes.zip")
         except: pass
