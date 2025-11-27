@@ -5,7 +5,7 @@ from itertools import cycle
 from zipfile import ZipFile
 from urllib.request import urlopen
 
-rDownloadURL = {"main": "https://bitbucket.org/xoceunder/xtream-ui-install/raw/main/main_xui_xoceunder.zip", "sub": "https://bitbucket.org/xoceunder/xtream-ui-install/raw/main/sub_xui_xoceunder.zip"}
+rDownloadURL = {"main": "https://bitbucket.org/seharavip/xtream-ui-install/raw/main/main_xui_xoceunder.zip", "sub": "https://bitbucket.org/seharavip/xtream-ui-install/raw/main/sub_xui_xoceunder.zip"}
 rPackages = ["cpufrequtils", "iproute2", "python", "net-tools", "dirmngr", "gpg-agent", "software-properties-common", "libcurl4", "libxslt1-dev", "libgeoip-dev", "libonig-dev", "e2fsprogs", "wget", "sysstat", "alsa-utils", "v4l-utils", "mcrypt", "nscd", "htop", "iptables-persistent", "libjpeg-dev", "libpng-dev", "php-ssh2", "xz-utils", "zip", "unzip", "mc", "libpng16-16", "libzip5", "rsync", "libmaxminddb0", "libmaxminddb-dev", "python3-paramiko", "python-is-python3", "mariadb-server"]
 rRemove = ["mysql-server"]
 rInstall = {"MAIN": "main", "LB": "sub"}
@@ -176,7 +176,7 @@ def install(rType="MAIN"):
         printc("Installing Software")
         os.system('unzip -o "/tmp/xtreamcodes.zip" -d "/home/xtreamcodes/" >/dev/null 2>&1')
         if not os.path.exists("/home/xtreamcodes/iptv_xtream_codes/xtreamcodes"): 
-            os.system("wget -q https://github.com/xoceunder/Xtream-UI-install/raw/main/xtreamcodes -O /home/xtreamcodes/iptv_xtream_codes/xtreamcodes")
+            os.system("wget -q https://github.com/iptvbosna/Xtream-UI-install-20-22-24/raw/main/xtreamcodes -O /home/xtreamcodes/iptv_xtream_codes/xtreamcodes")
             os.system("sudo chmod +x /home/xtreamcodes/iptv_xtream_codes/xtreamcodes")
         try: os.remove("/tmp/xtreamcodes.zip")
         except: pass
@@ -187,9 +187,9 @@ def install(rType="MAIN"):
 def update(rType="MAIN"):
     if rType == "UPDATE":
         printc("Enter the link of release_xyz.zip file:", col.BRIGHT_RED)
-        rlink = input('Example: https://bitbucket.org/xoceunder/xtream-ui-install/raw/main/release_22f.zip\n\nNow enter the link:\n\n')
+        rlink = input('Example: https://bitbucket.org/seharavip/xtream-ui-install/raw/main/release_22f.zip\n\nNow enter the link:\n\n')
     else:
-        rlink = "https://bitbucket.org/xoceunder/xtream-ui-install/raw/main/release_22f.zip"
+        rlink = "https://bitbucket.org/seharavip/xtream-ui-install/raw/main/release_22f.zip"
         printc("Downloading Software Update")  
     os.system('wget -q -O "/tmp/update.zip" "%s"' % rlink)
     if os.path.exists("/tmp/update.zip"):
@@ -326,8 +326,8 @@ def configure():
     if not os.path.exists("/home/xtreamcodes/iptv_xtream_codes/tv_archive"): os.mkdir("/home/xtreamcodes/iptv_xtream_codes/tv_archive/")
     os.system("ln -s /home/xtreamcodes/iptv_xtream_codes/bin/ffmpeg /usr/bin/")
     os.system("ln -s /home/xtreamcodes/iptv_xtream_codes/bin/ffprobe /usr/bin/")
-    if not os.path.exists("/home/xtreamcodes/iptv_xtream_codes/GeoLite2.mmdb"): os.system("wget -q https://bitbucket.org/xoceunder/xtream-ui-install/raw/main/GeoLite2.mmdb -O /home/xtreamcodes/iptv_xtream_codes/GeoLite2.mmdb")
-    if not os.path.exists("/home/xtreamcodes/iptv_xtream_codes/crons/pid_monitor.php"): os.system("wget -q https://bitbucket.org/xoceunder/xtream-ui-install/raw/main/pid_monitor.php -O /home/xtreamcodes/iptv_xtream_codes/crons/pid_monitor.php")
+    if not os.path.exists("/home/xtreamcodes/iptv_xtream_codes/GeoLite2.mmdb"): os.system("wget -q https://bitbucket.org/seharavip/xtream-ui-install/raw/main/GeoLite2.mmdb -O /home/xtreamcodes/iptv_xtream_codes/GeoLite2.mmdb")
+    if not os.path.exists("/home/xtreamcodes/iptv_xtream_codes/crons/pid_monitor.php"): os.system("wget -q https://bitbucket.org/seharavip/xtream-ui-install/raw/main/pid_monitor.php -O /home/xtreamcodes/iptv_xtream_codes/crons/pid_monitor.php")
     os.system("chown xtreamcodes:xtreamcodes -R /home/xtreamcodes >/dev/null 2>&1")
     os.system("chmod -R 0777 /home/xtreamcodes >/dev/null 2>&1")
     os.system("chattr -ai /home/xtreamcodes/iptv_xtream_codes/GeoLite2.mmdb >/dev/null 2>&1")
