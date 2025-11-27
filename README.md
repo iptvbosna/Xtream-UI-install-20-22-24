@@ -4,30 +4,30 @@
 </a>
 </p>
 
-## 📌 About XtreamCodes Server
-Installer Xtream-UI currently supports linux 18, 20, 22, 24
-This is an installation mirror for xtream ui software on Ubuntu.
+## 📌 O Nama XtreamCodes Sehara Server
+Instalacijski program Xtream-UI trenutno podržava Linux 18, 20, 22, 24. 
+Ovo je instalacijski mirror za Xtream UI softver na Ubuntuu.
 
-## ⚙️ Installation
-Update your ubuntu first, then install panel:
+## ⚙️ Instalacija
+Prvo ažurirajte svoj Ubuntu, a zatim instalirajte panel:
 ``` 
 sudo apt update && sudo apt full-upgrade -y && rm -rf install.py && wget https://github.com/iptvbosna/Xtream-UI-install-20-22-24/raw/main/install.py && sudo python3 install.py 
 ```
 ## 📡 Streaming URLs
-| Platform | URL Format |
+| Platforma | URL Format |
 |----------|------------|
 | **XtreamCodes** | `http://<host>:25500` |
 | **MAG/Stalker Portal** | `http://<host>:25461/stalker_portal/c/` |
 | **M3U Playlist** | `http://<host>:25461/get.php?username=test&password=test&type=m3u_plus&output=ts` |
 
-📌 **Refer to the API documentation for details on GET request parameters.**
+📌 **Za detalje o parametrima GET zahtjeva pogledajte API dokumentaciju.**
 
-## 🛠️ Managing the Panel
-To start the Xtream Codes panel, use:
+## 🛠️ Upravljanje Sehara panelom
+Za pokretanje Sehara panela Xtream kodovi koristite:
 ```sh
 sudo systemctl start xtreamcodes
 ```
-| Command | Description |
+| Naredba | Opis |
 |---------|------------|
 | `status` | Status the panel |
 | `start` | Start the panel |
