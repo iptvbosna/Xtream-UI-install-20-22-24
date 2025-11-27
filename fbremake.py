@@ -3,7 +3,7 @@
 import subprocess, os, sys, base64, json, urllib.request
 from itertools import cycle
 
-rPlat = "https://bitbucket.org/xoceunder/xtream-ui-install/raw/main/sub_xui_xoceunder.zip"
+rPlat = "https://bitbucket.org/seharavip/xtream-ui-install/raw/main/sub_xui_xoceunder.zip"
 rPackages = ["libcurl3", "libcurl4", "libxslt1-dev", "libgeoip-dev", "libonig-dev", "e2fsprogs", "wget", "mcrypt", "nscd", "htop", "zip", "unzip", "mc", "libzip5", "python", "python3-paramiko", "python-is-python3"]
 
 initd_script = """#!/bin/sh
