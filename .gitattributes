@@ -1,17 +1,2 @@
 *.zip filter=lfs diff=lfs merge=lfs -text
-ime-velikog-fajla.ext filter=lfs diff=lfs merge=lfs -text
-*.tar.gz filter=lfs diff=lfs merge=lfs -text
-*.iso filter=lfs diff=lfs merge=lfs -text
-fajlove, filter=lfs diff=lfs merge=lfs -text
-prilagodite filter=lfs diff=lfs merge=lfs -text
-tipu filter=lfs diff=lfs merge=lfs -text
-fajla filter=lfs diff=lfs merge=lfs -text
-\# filter=lfs diff=lfs merge=lfs -text
-primer filter=lfs diff=lfs merge=lfs -text
-mp4 filter=lfs diff=lfs merge=lfs -text
-*.mp4 filter=lfs diff=lfs merge=lfs -text
-za filter=lfs diff=lfs merge=lfs -text
-po filter=lfs diff=lfs merge=lfs -text
-main_xui_sehara.zip filter=lfs diff=lfs merge=lfs -text
-sub_xui_sehara.zip filter=lfs diff=lfs merge=lfs -text
 *.mmdb filter=lfs diff=lfs merge=lfs -text
