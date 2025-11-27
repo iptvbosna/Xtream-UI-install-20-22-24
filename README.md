@@ -1,5 +1,5 @@
 <p align="center">
-<a href="https://www.paypal.com/donate/?hosted_button_id=7CPLHJ3PT47KQ">
+<a href="https://www.paypal.com/paypalme/webplatforma">
  <img  alt="Donate with PayPal button" border="0" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" />
 </a>
 </p>
