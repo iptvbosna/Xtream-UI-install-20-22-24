@@ -29,9 +29,9 @@ sudo systemctl start xtreamcodes
 ```
 | Naredba | Opis |
 |---------|------------|
-| `status` | Status the panel |
-| `start` | Start the panel |
-| `stop` | Stop the panel |
-| `restart` | Restart the panel |
-| `reload` | Reload Nginx configuration |
+| `status` | Status the panel | sudo systemctl status xtreamcodes |
+| `start` | Start the panel | sudo systemctl start xtreamcodes |
+| `stop` | Stop the panel | sudo systemctl stop xtreamcodes |
+| `restart` | Restart the panel | sudo systemctl restart xtreamcodes |
+| `reload` | Reload Nginx configuration | sudo systemctl reload xtreamcodes |
 >>>>>>
