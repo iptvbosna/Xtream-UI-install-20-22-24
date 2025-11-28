@@ -6,20 +6,8 @@ Just enjoy.
 =======
 <p align="center">
 <a href="https://www.paypal.com/paypalme/webplatforma">
- <div style="text-align: center; border: 1px solid #ddd; padding: 20px; border-radius: 10px;">
-    <h2>Kanal 1</h2>
-    <p style="color: green; font-size: 18px;">Cijena: 5.00 EUR</p>
-    <p style="color: red; font-size: 16px;">Vrijeme gledanja: 1 sat</p>
-    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-        <input type="hidden" name="cmd" value="_xclick">
-        <input type="hidden" name="business" value="tvoj-email@example.com">
-        <input type="hidden" name="item_name" value="Kanal 1 - 1 sat gledanja">
-        <input type="hidden" name="amount" value="5.00">
-        <input type="hidden" name="currency_code" value="EUR">
-        <input type="image" src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/checkout-logo-medium.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" style="margin-top: 10px;">
-        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-    </form>
-</div>
+ <img  alt="Donate with PayPal button" border="0" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" />
+</a>
 </p>
 
 ## 📌 O Nama XtreamCodes Sehara Server
