@@ -34,4 +34,4 @@ sudo systemctl start xtreamcodes
 | `stop` | Stop the panel |
 | `restart` | Restart the panel |
 | `reload` | Reload Nginx configuration |
->>>>>>> 45dd1ab3ccd58dabb43b55a2383becda24030259
+>>>>>>
